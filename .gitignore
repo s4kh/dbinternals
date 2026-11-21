@@ -32,3 +32,13 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Profiles and files the storage engine writes while you run it
+*.prof
+data/
+*.tmp
+*.sst
+*.wal
+
+# OS
+.DS_Store
